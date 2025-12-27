@@ -1,0 +1,22 @@
+# GearGuard - Production Deployment
+
+## Railway Deployment
+
+### Backend Deployment
+1. Connect GitHub repo to Railway
+2. Set environment variables in Railway dashboard
+3. Deploy from `gearguard-backend` folder
+
+### Frontend Deployment  
+1. Build: `npm run build`
+2. Deploy `dist` folder to Vercel/Netlify
+3. Set `VITE_API_BASE` to production backend URL
+
+### Environment Variables
+```
+MONGODB_URI=mongodb+srv://...
+JWT_SECRET=production-secret
+BREVO_API_KEY=your-key
+BREVO_SENDER=noreply@yourdomain.com
+FRONTEND_URL=https://your-frontend.vercel.app
+```
