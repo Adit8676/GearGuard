@@ -1,6 +1,8 @@
 # GearGuard
 GearGuard is a lightweight maintenance management system built to help organizations track equipment, manage maintenance requests, and assign tasks efficiently.
 
+**Video Demo**: [Click Here](https://youtu.be/8i3IknFytxM)
+
 ## Team Members
 
 | Name                   | Role / Branch | Institute    | GitHub                                            |
@@ -252,7 +254,3 @@ For support and questions:
 - Create an issue on GitHub
 - Contact the development team
 - Check the documentation in `/docs`
-
----
-
-**GearGuard** - Powering Smarter Maintenance
