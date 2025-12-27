@@ -29,12 +29,7 @@ const Dashboard = () => {
     return <Navigate to="/admin" />;
   }
   
-  // If user is technician or manager, redirect to technician dashboard
-  if (user?.role === 'technician' || user?.role === 'manager') {
-    return <Navigate to="/technician" />;
-  }
-  
-  // Regular user dashboard with layout
+  // Regular user dashboard with layout (including technicians and managers)
   return (
     <UserLayout>
       <UserDashboard />

@@ -81,16 +81,7 @@ const useAuthStore = create((set, get) => ({
         set({ user: response.data.user });
       }
     } catch (error) {
-      // Fallback to dummy user for demo
-      const dummyUser = {
-        _id: 'user1',
-        name: 'John Technician',
-        email: 'tech@gearguard.com',
-        role: 'technician',
-        teamId: 't1',
-        teamName: 'Mechanical Team'
-      };
-      set({ user: dummyUser });
+      set({ user: null });
     }
   },
 
